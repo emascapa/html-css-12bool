@@ -44,10 +44,15 @@ img {
     padding: 1rem;
 }
 
+.row>div>div>div>span {
+    font-size: 0.7rem;
+}
+
 .btn {
     cursor: pointer;
+    color: white;
     padding: 0.2rem 1rem;
-    background-color: lightseagreen;
+    background-color: rgb(74, 137, 209);
     border-radius: 50px;
 }
 
@@ -92,4 +97,11 @@ img {
 }
 .flying {
     background-color: var(--flying);
+}
+
+.steel {
+    background-color: var(--steel);
+}
+.bug {
+    background-color: var(--bug);
 }
