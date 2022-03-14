@@ -1,3 +1,18 @@
+:root {
+    --grass:#4DA046;
+    --fire: #E5843C;
+    --water: #407FC1;
+    --ice: #60BDAD;
+    --flying: #809BD4;
+    --steel: #4A7C8F;
+    --bug: #87B427; 
+    --ground: #C76834;
+    --electric: #E1C132;
+    --rock: #B2A477;
+    --psychic: #DE555B;
+    --poison: #A060C0; 
+}
+
 * {
     font-family: 'Fredoka', sans-serif;
 }
@@ -11,9 +26,70 @@
     margin-bottom: 1rem;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 
 .title {
     border: 1px solid black;
     border-radius: 8px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 0.2rem 1rem;
+    background-color: lightseagreen;
+    border-radius: 50px;
+}
+
+.type-list {
+    column-gap: 5px;
+}
+
+.type {
+    width: 70px;
+    height: 25px;
+    border-radius: 3px;
+    color: white;
+}
+
+.grass {
+    background-color: var(--grass);
+}
+
+.poison {
+    background-color: var(--poison);
+}
+
+.water {
+    background-color: var(--water);
+}
+.rock {
+    background-color: var(--rock);
+}
+.ground {
+    background-color: var(--ground);
+}
+
+.fire {
+    background-color: var(--fire);
+}
+
+.ice {
+    background-color: var(--ice);
+}
+.psychic {
+    background-color: var(--psychic);
+}
+.flying {
+    background-color: var(--flying);
 }
