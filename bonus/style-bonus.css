@@ -1,0 +1,19 @@
+* {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.my-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.title {
+    border: 1px solid black;
+    border-radius: 8px;
+}
