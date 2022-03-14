@@ -1,20 +1,20 @@
-d-flex {
+.d-flex {
     display: flex;
 }
 
-justify-center {
+.justify-center {
     justify-content: center;
 }
 
-align-center {
+.align-center {
     align-items: center;
 }
 
-text-center {
+.text-center {
     text-align: center;
 }
 
-text-right {
+.text-right {
     text-align: right;
 }
 
@@ -22,4 +22,14 @@ text-right {
 * {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.my-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
