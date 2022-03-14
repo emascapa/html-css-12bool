@@ -159,7 +159,11 @@
 
 /* media query */
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
+    .type {
+        font-size: 0.7rem;
+    }
+
     .col-sm-1 {
         flex-basis: calc((100% / 12) * 1);
     }

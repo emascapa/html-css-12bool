@@ -21,6 +21,22 @@
     padding: 1rem;
 }
 
+.px-dot5 {
+    padding-left: 2px;
+    padding-right: 2px;
+
+}
+
+.m-compense {
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+.mx-dot5 {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
 .my-1 {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -30,6 +46,9 @@ img {
     max-width: 100%;
 }
 
+.wrapper {
+    padding: 2px;
+}
 
 
 .title {
@@ -48,7 +67,7 @@ img {
     background-color: rgb(228, 222, 222);
 }
 
-.row>div>div>div>span {
+.row>div>div>div>div>span {
     font-size: 0.7rem;
 }
 
@@ -65,7 +84,7 @@ img {
 }
 
 .type {
-    width: 70px;
+    /* width: 70px; */
     height: 25px;
     border-radius: 3px;
     color: white;
